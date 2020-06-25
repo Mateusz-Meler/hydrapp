@@ -1,13 +1,25 @@
 @import "~normalize.css";
-
 @import "_variables";
-@import "modules/hello.scss";
+
 
 body {
-  background: $wtf;
+  background: #3767AD;
   color: #fff;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  font-family: Roboto;
+}
+
+.heading {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 55px;
+  margin: 87px 50px 68px 50px;
+}
+
+.button {
+  margin-top: 48px;
+  margin-bottom: 37px;
 }
