@@ -1,11 +1,10 @@
 import "../scss/main.scss";
 
 // uncomment the lines below to enable PWA
-// import {registerSW} from './pwa.js';
-// registerSW();
+import { registerSW } from "./pwa.js";
+registerSW();
 
 /* place your code below */
-
 
 const addGlass = document.querySelector(".button--js");
 const removeGlass = document.querySelector(".secondary-button--js");
@@ -16,24 +15,22 @@ let glassCounter = 0;
 const localStorageValue = localStorage.getItem(key);
 
 if (localStorageValue) {
-     glassCounter = localStorageValue;
+  glassCounter = localStorageValue;
 } else {
-localStorage.setItem(key, 0);
+  localStorage.setItem(key, 0);
 }
 counter.innerHTML = glassCounter;
 
+addGlass.addEventListener("click", () => {
+  glassCounter++;
+  counter.innerHTML = glassCounter;
+  localStorage.setItem(key, glassCounter);
+});
 
-addGlass.addEventListener('click', () => {
-glassCounter++;
-counter.innerHTML = glassCounter;
-localStorage.setItem(key, glassCounter);
-})
-
-removeGlass.addEventListener('click', () => {
-    if (glassCounter > 0){
+removeGlass.addEventListener("click", () => {
+  if (glassCounter > 0) {
     glassCounter--;
-    
-}
-    counter.innerHTML = glassCounter;
-    localStorage.setItem(key, glassCounter);
-    })
+  }
+  counter.innerHTML = glassCounter;
+  localStorage.setItem(key, glassCounter);
+});
