@@ -10,8 +10,9 @@ const addGlass = document.querySelector(".button--js");
 const removeGlass = document.querySelector(".secondary-button--js");
 const counter = document.querySelector(".glass__number--js");
 const key = new Date().toLocaleString().slice(0, 10);
+const date = document.querySelector(".date--js");
+const value = document.querySelector(".value--js");
 let glassCounter = 0;
-
 const localStorageValue = localStorage.getItem(key);
 
 if (localStorageValue) {
@@ -34,3 +35,4 @@ removeGlass.addEventListener("click", () => {
   counter.innerHTML = glassCounter;
   localStorage.setItem(key, glassCounter);
 });
+

@@ -2,12 +2,11 @@
 @import "_variables";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 @keyframes bounce {
-
-    0% {
-      transform: scale(1)
-    }
+  0% {
+    transform: scale(1);
+  }
   100% {
-    transform: scale(1.2)
+    transform: scale(1.2);
   }
 }
 
@@ -41,7 +40,7 @@ body {
   line-height: 21px;
   border: none;
   border-radius: 4px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .heading {
   font-style: normal;
@@ -58,7 +57,6 @@ body {
   width: 280px;
   height: 280px;
   animation: bounce 2s ease-in-out infinite alternate;
-
   &__number {
     font-size: 100px;
     color: #000;
@@ -66,6 +64,26 @@ body {
     z-index: 1;
   }
 }
+
+.info {
+  font-size: 30px;
+  padding: 6px;
+  display: flex;
+  align-self: flex-end;
+  background: none;
+  border: none;
+  text-decoration: none;
+}
+.back {
+  display: flex;
+  align-self: flex-start;
+  font-size: 30px;
+  padding: 6px;
+  background: none;
+  border: none;
+  text-decoration: none;
+}
+
 .secondary-button {
   background: none;
   border: none;
