@@ -38,13 +38,14 @@ body {
 }
 .glass {
   position: relative;
+  background: url(../assets/img/water-glass.svg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 280px;
   height: 280px;
   &__number {
-    top: 108px;
-    left: 108px;
-    position: absolute;
-    font-size: 112px;
+    font-size: 100px;
     color: #000;
     margin: 0;
     z-index: 1;
@@ -57,6 +58,7 @@ body {
   margin-top: 37px;
   font-size: 14px;
   color: #f5e5e7;
+  font-style: normal;
   font-weight: 500;
   line-height: 16px;
   font-style: normal;
