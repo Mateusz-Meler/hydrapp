@@ -42,11 +42,27 @@ body {
   border-radius: 4px;
   background-color: #ffffff;
 }
+
+.date {
+  text-align: center;
+  font-size: 30px;
+  margin: 0;  
+}
+
+.value {
+  font-size: 20px;
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+
 .heading {
   font-style: normal;
   font-weight: normal;
   font-size: 55px;
   margin: 87px 50px 68px 50px;
+  border: dashed;
+  padding: 20px;
+  border-radius: 7px;
 }
 .glass {
   position: relative;
@@ -67,21 +83,29 @@ body {
 
 .info {
   font-size: 30px;
-  padding: 6px;
+  padding: 10px;
   display: flex;
   align-self: flex-end;
   background: none;
   border: none;
   text-decoration: none;
+  opacity: 1;
+  &:hover {
+    opacity: 0.7;
+  }
 }
 .back {
   display: flex;
   align-self: flex-start;
   font-size: 30px;
-  padding: 6px;
+  padding: 10px;
   background: none;
   border: none;
   text-decoration: none;
+  opacity: 1;
+  &:hover {
+    opacity: 0.7;
+  }
 }
 
 .secondary-button {
