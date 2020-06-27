@@ -1,8 +1,8 @@
 import "../scss/main.scss";
 
 // uncomment the lines below to enable PWA
-// import { registerSW } from "./pwa.js";
-// registerSW();
+import { registerSW } from "./pwa.js";
+registerSW();
 
 /* place your code below */
 
@@ -11,14 +11,13 @@ const value = document.querySelector(".value--js");
 
 let currentValue = localStorage.getItem(window.localStorage.key(1));
 if (currentValue) {
-value.innerHTML = currentValue;
+  value.innerHTML = currentValue;
 }
 
 let currentKey = window.localStorage.key(1);
 if (currentKey) {
-date.innerHTML = currentKey;
+  date.innerHTML = currentKey;
 }
-
 
 //--------------------------------------------------------------------------------//
 
@@ -27,14 +26,13 @@ const value2 = document.querySelector(".value2--js");
 
 let currentValue2 = localStorage.getItem(window.localStorage.key(2));
 if (currentValue2) {
-value2.innerHTML = currentValue2;
+  value2.innerHTML = currentValue2;
 }
 
 let currentKey2 = window.localStorage.key(2);
 if (currentKey2) {
-date2.innerHTML = currentKey2;
+  date2.innerHTML = currentKey2;
 }
-
 
 //--------------------------------------------------------------------------------//
 
@@ -43,14 +41,13 @@ const value3 = document.querySelector(".value3--js");
 
 let currentValue3 = localStorage.getItem(window.localStorage.key(3));
 if (currentValue3) {
-value3.innerHTML = currentValue3;
+  value3.innerHTML = currentValue3;
 }
 
 let currentKey3 = window.localStorage.key(3);
 if (currentKey3) {
-date3.innerHTML = currentKey3;
+  date3.innerHTML = currentKey3;
 }
-
 
 //--------------------------------------------------------------------------------//
 
@@ -59,14 +56,13 @@ const value4 = document.querySelector(".value4--js");
 
 let currentValue4 = localStorage.getItem(window.localStorage.key(4));
 if (currentValue4) {
-value4.innerHTML = currentValue4;
+  value4.innerHTML = currentValue4;
 }
 
 let currentKey4 = window.localStorage.key(4);
 if (currentKey4) {
-date4.innerHTML = currentKey4;
+  date4.innerHTML = currentKey4;
 }
-
 
 //--------------------------------------------------------------------------------//
 
@@ -75,14 +71,13 @@ const value5 = document.querySelector(".value5--js");
 
 let currentValue5 = localStorage.getItem(window.localStorage.key(5));
 if (currentValue5) {
-value5.innerHTML = currentValue5;
+  value5.innerHTML = currentValue5;
 }
 
 let currentKey5 = window.localStorage.key(5);
 if (currentKey5) {
-date5.innerHTML = currentKey5;
+  date5.innerHTML = currentKey5;
 }
-
 
 //--------------------------------------------------------------------------------//
 
@@ -91,14 +86,13 @@ const value6 = document.querySelector(".value6--js");
 
 let currentValue6 = localStorage.getItem(window.localStorage.key(6));
 if (currentValue6) {
-value6.innerHTML = currentValue6;
+  value6.innerHTML = currentValue6;
 }
 
 let currentKey6 = window.localStorage.key(6);
 if (currentKey6) {
-date6.innerHTML = currentKey6;
+  date6.innerHTML = currentKey6;
 }
-
 
 //--------------------------------------------------------------------------------//
 
@@ -107,14 +101,13 @@ const value7 = document.querySelector(".value7--js");
 
 let currentValue7 = localStorage.getItem(window.localStorage.key(7));
 if (currentValue7) {
-value7.innerHTML = currentValue7;
+  value7.innerHTML = currentValue7;
 }
 
 let currentKey7 = window.localStorage.key(7);
 if (currentKey7) {
-date7.innerHTML = currentKey7;
+  date7.innerHTML = currentKey7;
 }
-
 
 //--------------------------------------------------------------------------------//
 
@@ -123,14 +116,13 @@ const value8 = document.querySelector(".value8--js");
 
 let currentValue8 = localStorage.getItem(window.localStorage.key(8));
 if (currentValue8) {
-value8.innerHTML = currentValue8;
+  value8.innerHTML = currentValue8;
 }
 
 let currentKey8 = window.localStorage.key(8);
 if (currentKey8) {
-date8.innerHTML = currentKey8;
+  date8.innerHTML = currentKey8;
 }
-
 
 //--------------------------------------------------------------------------------//
 
@@ -139,14 +131,13 @@ const value9 = document.querySelector(".value9--js");
 
 let currentValue9 = localStorage.getItem(window.localStorage.key(9));
 if (currentValue9) {
-value9.innerHTML = currentValue9;
+  value9.innerHTML = currentValue9;
 }
 
 let currentKey9 = window.localStorage.key(9);
 if (currentKey9) {
-date9.innerHTML = currentKey9;
+  date9.innerHTML = currentKey9;
 }
-
 
 //--------------------------------------------------------------------------------//
 
@@ -155,12 +146,10 @@ const value10 = document.querySelector(".value10--js");
 
 let currentValue10 = localStorage.getItem(window.localStorage.key(10));
 if (currentValue10) {
-value10.innerHTML = currentValue10;
+  value10.innerHTML = currentValue10;
 }
 
 let currentKey10 = window.localStorage.key(10);
 if (currentKey10) {
-date10.innerHTML = currentKey10;
+  date10.innerHTML = currentKey10;
 }
-
-

@@ -19,8 +19,6 @@ if (localStorageValue) {
 } else {
   localStorage.setItem(key, 0);
 }
-
-
 addGlass.addEventListener("click", () => {
   glassCounter++;
   counter.innerHTML = glassCounter;
@@ -34,4 +32,3 @@ removeGlass.addEventListener("click", () => {
   counter.innerHTML = glassCounter;
   localStorage.setItem(key, glassCounter);
 });
-
