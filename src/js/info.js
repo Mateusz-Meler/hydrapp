@@ -6,6 +6,11 @@ registerSW();
 
 /* place your code below */
 
+const clearButton = document.querySelector('.box__clear--js')
+clearButton.addEventListener('click', () => {
+  localStorage.clear();
+})
+
 const date = document.querySelector(".date--js");
 const value = document.querySelector(".value--js");
 
